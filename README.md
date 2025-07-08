@@ -1,62 +1,59 @@
-# Game Ếch Qua Sông
+# Flappy Bird Game
 
-Chào mừng bạn đến với trò chơi "Ếch qua sông"! Đây là một game đơn giản mà bạn sẽ điều khiển một con ếch cố gắng vượt qua con đường đầy chướng ngại vật như ô tô và bơi qua dòng sông để đến đích.
+Welcome to **Flappy Bird**! This is a simple yet addictive game where you control a bird trying to fly through a series of pipes without hitting them. Try to achieve the highest score by navigating the bird through the pipes as long as you can.
 
-## Mục Tiêu
+## Game Objective
 
-Mục tiêu của trò chơi là điều khiển con ếch từ bên dưới màn hình lên phía trên mà không bị các chướng ngại vật (ô tô, xe tải) va phải hoặc bị ngã xuống sông. Càng lên cao, game sẽ càng khó hơn.
+The goal of the game is to control a bird that continuously falls due to gravity. The player must tap the screen (or press space) to make the bird fly upward. Avoid hitting pipes, or the game ends. The more pipes you pass, the higher your score becomes.
 
-## Cách chơi
+## How to Play
 
-- Sử dụng các phím mũi tên để điều khiển con ếch:
-  - **Mũi tên lên**: Di chuyển lên
-  - **Mũi tên xuống**: Di chuyển xuống
-  - **Mũi tên trái**: Di chuyển sang trái
-  - **Mũi tên phải**: Di chuyển sang phải
-- Mục tiêu là vượt qua 5 dòng chướng ngại vật và đạt được điểm số cao nhất.
+- **Press the spacebar (or tap the screen)** to make the bird flap its wings and move upwards.
+- **Avoid the pipes!** The bird must fly between the pipes without touching them.
+- **Get the highest score possible** by flying through as many pipes as you can.
 
-## Cài Đặt
+## Setup Instructions
 
-1. Clone hoặc tải về mã nguồn từ GitHub:
+1. Clone or download the source code from GitHub:
     ```bash
-    git clone https://github.com/username/frogger-game.git
+    git clone https://github.com/username/flappy-bird.git
     ```
-2. Cài đặt các thư viện yêu cầu:
+2. Install required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3. Chạy game:
+3. Run the game:
     ```bash
-    python frogger.py
+    python flappy_bird.py
     ```
 
-## Công Nghệ Sử Dụng
+## Technologies Used
 
-- **Python**: Ngôn ngữ lập trình chính để phát triển trò chơi.
-- **Pygame**: Thư viện giúp phát triển trò chơi 2D.
+- **Python**: The primary programming language used to develop the game.
+- **Pygame**: A library used for creating 2D games in Python.
 
-## Các Tính Năng
+## Features
 
-- Độ khó tăng dần khi bạn chơi nhiều hơn.
-- Tính năng ghi điểm và hiển thị bảng xếp hạng.
-- Các hình ảnh và hiệu ứng âm thanh sống động.
+- **Endless gameplay**: The game becomes increasingly difficult as you progress.
+- **Scoreboard**: Displays your current score.
+- **Fun sound effects**: Includes sound effects for jumping and game over.
 
-## Tham Gia Phát Triển
+## Contributing
 
-Nếu bạn muốn đóng góp vào dự án này, hãy làm theo các bước sau:
+If you'd like to contribute to this project, feel free to follow these steps:
 
-1. Fork dự án về tài khoản của bạn.
-2. Tạo một nhánh mới (`git checkout -b feature-name`).
-3. Commit thay đổi của bạn (`git commit -am 'Add new feature'`).
-4. Push nhánh của bạn (`git push origin feature-name`).
-5. Mở Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b new-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin new-feature`).
+5. Open a Pull Request.
 
-## Liên Hệ
+## Contact
 
 - Email: contact@example.com
 - GitHub: https://github.com/username
 
-## Giấy Phép
+## License
 
-Game này được phát hành dưới giấy phép MIT.
+This game is open-source and available under the MIT License.
 
